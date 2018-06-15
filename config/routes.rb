@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :songs
+  resources :genres
+  resources :artists
+
   get 'songs/index'
 
   get 'songs/edit'
